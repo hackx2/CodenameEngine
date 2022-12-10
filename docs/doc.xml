@@ -12482,15 +12482,15 @@
 			</f>
 			<meta><m n=":keep"/></meta>
 		</execAsync>
-		<refreshAssets public="1" set="method" line="204" static="1">
+		<refreshAssets public="1" set="method" line="205" static="1">
 			<f a=""><x path="Void"/></f>
 			<meta><m n=":keep"/></meta>
 		</refreshAssets>
-		<initTransition public="1" set="method" line="211" static="1">
+		<initTransition public="1" set="method" line="212" static="1">
 			<f a=""><x path="Void"/></f>
 			<meta><m n=":keep"/></meta>
 		</initTransition>
-		<onStateSwitch set="method" line="222" static="1">
+		<onStateSwitch set="method" line="223" static="1">
 			<f a="newState">
 				<c path="flixel.FlxState"/>
 				<x path="Void"/>
@@ -66130,9 +66130,9 @@
 	<c path="cpp.RawConstPointer"><c path="discord_rpc.JoinRequest"/></c>
 	<x path="Void"/>
 </f></_onRequest>
-		<__touch get="inline" set="null" expr="&quot;1.670677951e+012&quot;" line="22" static="1">
+		<__touch get="inline" set="null" expr="&quot;1.670707736e+012&quot;" line="22" static="1">
 			<c path="String"/>
-			<meta><m n=":value"><e>"1.670677951e+012"</e></m></meta>
+			<meta><m n=":value"><e>"1.670707736e+012"</e></m></meta>
 		</__touch>
 		<meta>
 			<m n=":directlyUsed"/>
@@ -129780,6 +129780,10 @@
 	<c path="String"/>
 	<c path="flixel.FlxSprite"/>
 </f></loadAnimatedGraphic>
+		<meta><m n=":directlyUsed"/></meta>
+	</class>
+	<class path="funkin.system.CrashHandler" params="" file="source/funkin/system/CrashHandler.hx">
+		<init public="1" set="method" line="4" static="1"><f a=""><x path="Void"/></f></init>
 		<meta><m n=":directlyUsed"/></meta>
 	</class>
 	<class path="funkin.system.DiscordClient" params="" file="source/funkin/system/Discord.hx" module="funkin.system.Discord">
